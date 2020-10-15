@@ -6,7 +6,6 @@ void bubbleSort(int * arr, int len)  //int * arr 也可以写为int arr[]
     {
         for (int j = 0; j < len - 1 - i; j++)
         {
-            int * a = arr+1;
             if (arr[j] > arr[j + 1])
             {
                 int temp = arr[j];
